@@ -1,0 +1,51 @@
+<html>
+   <head>
+     <title> Login Form </title>
+   </head>
+   <body>
+      <h2> Login Form </h2>
+      <form>
+          
+          <label for="un"> Enter Username:  </label>
+          <input type="text" name="uname" id="un" placeholder="Enter Username" required> <br> <br>
+          <label for="pw"> Enter Password: </label>
+          <input type="password" name="pswd" id="pw" placeholder="Enter Password"> <br> <br>
+          Select Gender:
+          <input type="radio" name="gender" value="male" checked> Male
+          <input type="radio" name="gender" value="female"> Female
+          <br><br>
+          Language you know:
+          <input type="checkbox" name="lag1" value="hi" checked> hindi
+          <input type="checkbox" name="lag2" value="eng"> english
+          <input type="checkbox" name="lag3" value="oth"> other
+          <br><br>
+          Select Your DOB:
+          <input type="date" name="dob"> <br><br>
+          Select TOB:
+          <input type="time" name"tob"> <br> <br>
+          Enter Your Age:
+          <input type="number" name="age"> <br><br>
+          Enter Your Email:
+          <input type="email" name="email"> <br><br>
+          Upload document:  
+          <input type="file" name="ud">
+          <br><br>
+          Select your city:
+          <select name="ddcity">
+             <option value="">----Select City----</option>
+             <option value="gwalior"> Gwalior </option>
+             <option value="mumbai"> Mumbai  </option>
+             <option value="pune"> Pune </option>
+             <option value="goa"> Goa </option>
+          </select>
+           <br> <br>
+           Enter your Msg: <br>
+           <textarea name="msg" cols="30" rows="5">    
+           </textarea>                
+           <br><br>   
+
+          <input type="submit" value="register">
+          <input type="reset" value="clear">
+      </form>
+    </body>
+</html>
